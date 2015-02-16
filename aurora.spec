@@ -36,12 +36,12 @@
 %define install_base /opt
 
 Name:      aurora
-Version:   0.5.0
+Version:   0.7.0
 Release:   1%{?dist}.rc0
 Summary:   A framework for scheduling long-running services against Apache Mesos
 License:   ASL 2.0
 URL:       http://%{name}.incubator.apache.org/
-Source0:   aurora-0.5.0.tar.gz
+Source0:   aurora-0.7.0.tar.gz
 Buildroot: %{_tmppath}/%{name}-%{version}-%{release}-%(%{__id_u} -n)
 BuildRequires: gcc
 BuildRequires: gcc-c++
